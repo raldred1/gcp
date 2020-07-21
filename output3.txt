@@ -1,0 +1,1 @@
+Project: seceng-ra-001		Allowed to 0.0.0.0		Rule: [fw-rule-0000] allowing egress to public internet
