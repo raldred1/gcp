@@ -7,6 +7,8 @@ from googleapiclient.errors import HttpError
 credentials, project = google.auth.default()
 client = resource_manager.Client()
 
+# *** TO DO: When 1-65535 bad ports, multiple outputs. ***
+
 f = open("vpc_firewall_noncomp_output.csv", "w")
 
 # Bad Port Lists (TCP and UDP) -> Warning & Block

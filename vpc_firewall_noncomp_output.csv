@@ -1,0 +1,550 @@
+Project,Rule,Failed Control
+eplus-cgr-ide-03-70b2,gke-eplus-chgr-private-cluster-09be4617-all,tcp:all ports
+eplus-cgr-ide-03-70b2,gke-eplus-chgr-private-cluster-09be4617-all,udp:all ports
+eplus-cgr-ide-03-70b2,gke-eplus-chgr-private-cluster-09be4617-vms,ip_range: 0.0.0.0
+eplus-cgr-ide-03-70b2,gke-eplus-chgr-private-cluster-09be4617-vms,bad port(s) found: ['tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535']
+eplus-cgr-ide-03-70b2,gke-eplus-chgr-private-cluster-09be4617-vms,bad port(s) found: ['udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535']
+eplus-cgr-ide-03-70b2,k8s-e956b49bb5d92e89-node-http-hc,public target: 130.211.0.0/22
+eplus-cgr-ide-03-70b2,k8s-e956b49bb5d92e89-node-http-hc,public target: 35.191.0.0/16
+eplus-cgr-ide-03-70b2,k8s-e956b49bb5d92e89-node-http-hc,public target: 209.85.152.0/22
+eplus-cgr-ide-03-70b2,k8s-e956b49bb5d92e89-node-http-hc,public target: 209.85.204.0/22
+eplus-cgr-ide-03-70b2,k8s-fw-a84758148cc3f11ea9ed34201ac10000,ip_range: 0.0.0.0
+eplus-cgr-ide-03-70b2,k8s-fw-a84758148cc3f11ea9ed34201ac10000,bad port(s) found: ['tcp:80']
+eplus-cgr-ide-03-70b2,k8s-fw-a9bb2eb23cc3f11ea9ed34201ac10000,ip_range: 0.0.0.0
+eplus-mgf-ide-03-6601,a2935c482cc1011ea96fe42010a9a00d,ip_range: 0.0.0.0
+eplus-mgf-ide-03-6601,a2935c482cc1011ea96fe42010a9a00d,bad port(s) found: ['tcp:80']
+eplus-mgf-ide-03-6601,eplus-mgf-ide-vpc-kcl-rule,ip_range: 0.0.0.0
+eplus-mgf-ide-03-6601,eplus-mgf-ide-vpc-kcl-rule,bad port(s) found: ['tcp:80']
+eplus-mgf-ide-03-6601,gke-eplus-mgf-ide-gke-cluster-96dac624-all,udp:all ports
+eplus-mgf-ide-03-6601,gke-eplus-mgf-ide-gke-cluster-96dac624-all,tcp:all ports
+eplus-mgf-ide-03-6601,gke-eplus-mgf-ide-gke-cluster-96dac624-ssh,public target: 35.246.47.144/32
+eplus-mgf-ide-03-6601,gke-eplus-mgf-ide-gke-cluster-96dac624-ssh,public target: 35.242.162.194/32
+eplus-mgf-ide-03-6601,gke-eplus-mgf-ide-gke-cluster-96dac624-ssh,public target: 35.246.115.41/32
+eplus-mgf-ide-03-6601,gke-eplus-mgf-ide-gke-cluster-96dac624-ssh,bad port(s) found: ['tcp:22']
+eplus-mgf-ide-03-6601,gke-eplus-mgf-ide-gke-cluster-96dac624-vms,bad port(s) found: ['tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535']
+eplus-mgf-ide-03-6601,gke-eplus-mgf-ide-gke-cluster-96dac624-vms,bad port(s) found: ['udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535']
+eplus-mgf-ide-03-6601,k8s-a5976a714d8c77e8-node-hc,public target: 209.85.204.0/22
+eplus-mgf-ide-03-6601,k8s-a5976a714d8c77e8-node-hc,public target: 130.211.0.0/22
+eplus-mgf-ide-03-6601,k8s-a5976a714d8c77e8-node-hc,public target: 35.191.0.0/16
+eplus-mgf-ide-03-6601,k8s-a5976a714d8c77e8-node-hc,public target: 209.85.152.0/22
+dp-fw-ide-02-6627,fdn-vpc-auto-allow-http,ip_range: 0.0.0.0
+dp-fw-ide-02-6627,fdn-vpc-auto-allow-http,bad port(s) found: ['tcp:80']
+dp-fw-ide-02-6627,fdn-vpc-auto-allow-https,ip_range: 0.0.0.0
+dp-fw-ide-02-6627,ssh-test,ip_range: 0.0.0.0
+dp-fw-ide-02-6627,ssh-test,bad port(s) found: ['tcp:22']
+dp-api-ide-02-59ef,cumulus-allow-http,ip_range: 0.0.0.0
+dp-api-ide-02-59ef,cumulus-allow-http,bad port(s) found: ['tcp:80']
+dp-api-ide-02-59ef,cumulus-allow-https,ip_range: 0.0.0.0
+dp-api-ide-02-59ef,cumulus-allow-icmp,ip_range: 0.0.0.0
+dp-api-ide-02-59ef,cumulus-allow-internal,tcp/udp:all ports
+dp-api-ide-02-59ef,cumulus-allow-rdp,ip_range: 0.0.0.0
+dp-api-ide-02-59ef,cumulus-allow-rdp,bad port(s) found: ['tcp:3389']
+dp-api-ide-02-59ef,cumulus-allow-ssh,ip_range: 0.0.0.0
+dp-api-ide-02-59ef,cumulus-allow-ssh,bad port(s) found: ['tcp:22']
+dp-api-ide-02-59ef,gke-kafka-cluster-58ab0380-all,tcp:all ports
+dp-api-ide-02-59ef,gke-kafka-cluster-58ab0380-all,udp:all ports
+dp-api-ide-02-59ef,gke-kafka-cluster-58ab0380-ssh,public target: 35.246.46.133/32
+dp-api-ide-02-59ef,gke-kafka-cluster-58ab0380-ssh,bad port(s) found: ['tcp:22']
+dp-api-ide-02-59ef,gke-kafka-cluster-58ab0380-vms,bad port(s) found: ['udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535']
+dp-api-ide-02-59ef,gke-kafka-cluster-58ab0380-vms,bad port(s) found: ['tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535']
+dp-api-ide-02-59ef,k8s-69e32d06bf4f6b16-node-http-hc,public target: 130.211.0.0/22
+dp-api-ide-02-59ef,k8s-69e32d06bf4f6b16-node-http-hc,public target: 35.191.0.0/16
+dp-api-ide-02-59ef,k8s-69e32d06bf4f6b16-node-http-hc,public target: 209.85.152.0/22
+dp-api-ide-02-59ef,k8s-69e32d06bf4f6b16-node-http-hc,public target: 209.85.204.0/22
+dp-api-ide-02-59ef,k8s-a245b4554d24a5a7-node-http-hc,public target: 130.211.0.0/22
+dp-api-ide-02-59ef,k8s-a245b4554d24a5a7-node-http-hc,public target: 35.191.0.0/16
+dp-api-ide-02-59ef,k8s-a245b4554d24a5a7-node-http-hc,public target: 209.85.152.0/22
+dp-api-ide-02-59ef,k8s-a245b4554d24a5a7-node-http-hc,public target: 209.85.204.0/22
+dp-api-ide-02-59ef,k8s-fw-a9ad35d5ac69b11ea8f7342010a9a00a,ip_range: 0.0.0.0
+eplus-ath-ide-04-bd03,gke-cluster-1-7401d118-all,tcp:all ports
+eplus-ath-ide-04-bd03,gke-cluster-1-7401d118-all,udp:all ports
+eplus-ath-ide-04-bd03,gke-cluster-1-7401d118-ssh,public target: 35.200.160.36/32
+eplus-ath-ide-04-bd03,gke-cluster-1-7401d118-ssh,bad port(s) found: ['tcp:22']
+eplus-ath-ide-04-bd03,gke-cluster-1-7401d118-vms,ip_range: 0.0.0.0
+eplus-ath-ide-04-bd03,gke-cluster-1-7401d118-vms,bad port(s) found: ['tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535']
+eplus-ath-ide-04-bd03,gke-cluster-1-7401d118-vms,bad port(s) found: ['udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535']
+eplus-ath-ide-04-bd03,k8s-6bcd7c0a31576867-node-http-hc,public target: 130.211.0.0/22
+eplus-ath-ide-04-bd03,k8s-6bcd7c0a31576867-node-http-hc,public target: 35.191.0.0/16
+eplus-ath-ide-04-bd03,k8s-6bcd7c0a31576867-node-http-hc,public target: 209.85.152.0/22
+eplus-ath-ide-04-bd03,k8s-6bcd7c0a31576867-node-http-hc,public target: 209.85.204.0/22
+eplus-ath-ide-04-bd03,k8s-fw-a5d4ac754c68411eaae2c42010aa0000,ip_range: 0.0.0.0
+eplus-ath-ide-04-bd03,k8s-fw-a5d4ac754c68411eaae2c42010aa0000,bad port(s) found: ['tcp:80']
+eplus-cco-ide-06-46bd,gke-gke-cluster-ead0c139-all,ip_range: 0.0.0.0
+eplus-cco-ide-06-46bd,gke-gke-cluster-ead0c139-all,tcp:all ports
+eplus-cco-ide-06-46bd,gke-gke-cluster-ead0c139-all,udp:all ports
+eplus-cco-ide-06-46bd,gke-gke-cluster-ead0c139-ssh,public target: 34.78.221.31/32
+eplus-cco-ide-06-46bd,gke-gke-cluster-ead0c139-ssh,public target: 130.211.56.16/32
+eplus-cco-ide-06-46bd,gke-gke-cluster-ead0c139-ssh,public target: 104.155.63.40/32
+eplus-cco-ide-06-46bd,gke-gke-cluster-ead0c139-ssh,bad port(s) found: ['tcp:22']
+eplus-cco-ide-06-46bd,gke-gke-cluster-ead0c139-vms,bad port(s) found: ['tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535']
+eplus-cco-ide-06-46bd,gke-gke-cluster-ead0c139-vms,bad port(s) found: ['udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535']
+eplus-cus-ide-04-05cb,gke-cus-badgen-2982aec1-all,tcp:all ports
+eplus-cus-ide-04-05cb,gke-cus-badgen-2982aec1-all,udp:all ports
+eplus-cus-ide-04-05cb,gke-cus-badgen-2982aec1-ssh,public target: 35.200.85.165/32
+eplus-cus-ide-04-05cb,gke-cus-badgen-2982aec1-ssh,bad port(s) found: ['tcp:22']
+eplus-cus-ide-04-05cb,gke-cus-badgen-2982aec1-vms,bad port(s) found: ['tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535']
+eplus-cus-ide-04-05cb,gke-cus-badgen-2982aec1-vms,bad port(s) found: ['udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535']
+eplus-cus-ide-04-05cb,k8s-276ea5d9a9777eea-node-http-hc,public target: 130.211.0.0/22
+eplus-cus-ide-04-05cb,k8s-276ea5d9a9777eea-node-http-hc,public target: 35.191.0.0/16
+eplus-cus-ide-04-05cb,k8s-276ea5d9a9777eea-node-http-hc,public target: 209.85.152.0/22
+eplus-cus-ide-04-05cb,k8s-276ea5d9a9777eea-node-http-hc,public target: 209.85.204.0/22
+eplus-cus-ide-04-05cb,k8s-fw-a2080939bcbf311ea95f842010a9201d,ip_range: 0.0.0.0
+eplus-cus-ide-04-05cb,k8s-fw-a2080939bcbf311ea95f842010a9201d,bad port(s) found: ['tcp:80']
+eplus-cus-ide-04-05cb,k8s-fw-a677f877ec03e11ea9cb042010a9201f,ip_range: 0.0.0.0
+eplus-cus-ide-04-05cb,k8s-fw-a677f877ec03e11ea9cb042010a9201f,bad port(s) found: ['tcp:80']
+eplus-mgf-ide-02-35b6,allow-internal-egress-eplus-mgf-ide-03,ip_range: 0.0.0.0
+eplus-mgf-ide-02-35b6,allow-internal-egress-eplus-mgf-ide-03,tcp/udp:all ports
+eplus-mgf-ide-02-35b6,gke-ns-kcl-eplus-mgf-ide-026d4670-all,tcp:all ports
+eplus-mgf-ide-02-35b6,gke-ns-kcl-eplus-mgf-ide-026d4670-all,udp:all ports
+eplus-mgf-ide-02-35b6,gke-ns-kcl-eplus-mgf-ide-026d4670-ssh,public target: 34.89.117.72/32
+eplus-mgf-ide-02-35b6,gke-ns-kcl-eplus-mgf-ide-026d4670-ssh,public target: 35.246.55.75/32
+eplus-mgf-ide-02-35b6,gke-ns-kcl-eplus-mgf-ide-026d4670-ssh,public target: 35.246.70.217/32
+eplus-mgf-ide-02-35b6,gke-ns-kcl-eplus-mgf-ide-026d4670-ssh,bad port(s) found: ['tcp:22']
+eplus-mgf-ide-02-35b6,gke-ns-kcl-eplus-mgf-ide-026d4670-vms,bad port(s) found: ['tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535']
+eplus-mgf-ide-02-35b6,gke-ns-kcl-eplus-mgf-ide-026d4670-vms,bad port(s) found: ['udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535']
+eplus-mgf-ide-02-35b6,k8s-ba765c258af82743-node-http-hc,public target: 209.85.204.0/22
+eplus-mgf-ide-02-35b6,k8s-ba765c258af82743-node-http-hc,public target: 130.211.0.0/22
+eplus-mgf-ide-02-35b6,k8s-ba765c258af82743-node-http-hc,public target: 35.191.0.0/16
+eplus-mgf-ide-02-35b6,k8s-ba765c258af82743-node-http-hc,public target: 209.85.152.0/22
+eplus-mgf-ide-02-35b6,k8s-fw-a583191c0c20611ea879042010a9a00f,ip_range: 0.0.0.0
+eplus-mgf-ide-02-35b6,k8s-fw-a583191c0c20611ea879042010a9a00f,bad port(s) found: ['tcp:80']
+sec-sen-ide-04-e4cd,test-egress,ip_range: 0.0.0.0
+sec-sen-ide-04-e4cd,test-egress,tcp/udp:all ports
+sec-sen-ide-04-e4cd,test-egress2,ip_range: 0.0.0.0
+sec-sen-ide-04-e4cd,test-egress2,tcp/udp:all ports
+sec-sen-ide-04-e4cd,test-egress3,ip_range: 0.0.0.0
+sec-sen-ide-04-e4cd,test-egress3,tcp/udp:all ports
+sec-sen-ide-04-e4cd,test-ingress,ip_range: 0.0.0.0
+sec-sen-ide-04-e4cd,test-ingress,tcp/udp:all ports
+sec-sen-ide-04-e4cd,test-vpc,ip_range: 0.0.0.0
+sec-sen-ide-04-e4cd,test-vpc,bad port(s) found: ['tcp:22']
+eplus-jrn-ide-01-0376,gke-jrnpoc-d9f403b0-all,udp:all ports
+eplus-jrn-ide-01-0376,gke-jrnpoc-d9f403b0-all,tcp:all ports
+eplus-jrn-ide-01-0376,gke-jrnpoc-d9f403b0-ssh,public target: 35.234.148.200/32
+eplus-jrn-ide-01-0376,gke-jrnpoc-d9f403b0-ssh,public target: 35.189.81.76/32
+eplus-jrn-ide-01-0376,gke-jrnpoc-d9f403b0-ssh,public target: 35.242.133.156/32
+eplus-jrn-ide-01-0376,gke-jrnpoc-d9f403b0-ssh,bad port(s) found: ['tcp:22']
+eplus-jrn-ide-01-0376,gke-jrnpoc-d9f403b0-vms,bad port(s) found: ['tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535']
+eplus-jrn-ide-01-0376,gke-jrnpoc-d9f403b0-vms,bad port(s) found: ['udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535']
+eplus-jrn-ide-01-0376,k8s-fw-l7--cfbd520bae82dd15,public target: 130.211.0.0/22
+eplus-jrn-ide-01-0376,k8s-fw-l7--cfbd520bae82dd15,public target: 35.191.0.0/16
+eplus-jrn-ide-01-0376,k8s-fw-l7--cfbd520bae82dd15,public target: 209.85.152.0/22
+eplus-jrn-ide-01-0376,k8s-fw-l7--cfbd520bae82dd15,public target: 209.85.204.0/22
+eplus-dat-ide-02-dcdb,collibra-jobserver-service,ip_range: 0.0.0.0
+eplus-dat-ide-02-dcdb,collibra-jobserver-ssh,ip_range: 0.0.0.0
+eplus-dat-ide-02-dcdb,collibra-jobserver-ssh,bad port(s) found: ['tcp:22']
+eplus-dat-ide-02-dcdb,default-allow-https,ip_range: 0.0.0.0
+eplus-dat-ide-02-dcdb,gke-argo-test-63210e89-all,tcp:all ports
+eplus-dat-ide-02-dcdb,gke-argo-test-63210e89-all,udp:all ports
+eplus-dat-ide-02-dcdb,gke-argo-test-63210e89-ssh,public target: 35.242.151.118/32
+eplus-dat-ide-02-dcdb,gke-argo-test-63210e89-ssh,bad port(s) found: ['tcp:22']
+eplus-dat-ide-02-dcdb,gke-argo-test-63210e89-vms,ip_range: 0.0.0.0
+eplus-dat-ide-02-dcdb,gke-argo-test-63210e89-vms,bad port(s) found: ['udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535']
+eplus-dat-ide-02-dcdb,gke-argo-test-63210e89-vms,bad port(s) found: ['tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535']
+dp-hst-bld-01-33a8,default-allow-dp-bld-01-hst-cnw,public target: 169.50.207.103/32
+dp-hst-bld-01-33a8,default-allow-dp-bld-01-hst-cnw,public target: 159.122.219.48/32
+dp-hst-bld-01-33a8,default-allow-dp-bld-01-hst-cnw,public target: 199.36.153.4/30
+dp-hst-bld-01-33a8,default-allow-dp-bld-01-hst-cnw,public target: 159.122.219.55/32
+dp-hst-bld-01-33a8,default-allow-dp-bld-01-hst-cnw,public target: 159.122.219.43/32
+dp-hst-bld-01-33a8,default-allow-dp-bld-01-hst-cnw,public target: 199.36.153.8/30
+dp-hst-bld-01-33a8,default-allow-dp-bld-01-hst-cnw,public target: 159.122.219.36/32
+dp-hst-bld-01-33a8,default-allow-dp-bld-01-hst-cnw,tcp/udp:all ports
+dp-hst-bld-01-33a8,egress-dp-bld-01-hst-cnw-firewall-default-allow-egr,tcp/udp:all ports
+dp-hst-bld-01-33a8,gke-dp-api-bld-01-kcl-01-euwe2-c27ca07e-all,tcp:all ports
+dp-hst-bld-01-33a8,gke-dp-api-bld-01-kcl-01-euwe2-c27ca07e-all,udp:all ports
+dp-hst-bld-01-33a8,gke-dp-api-bld-01-kcl-01-euwe2-c27ca07e-vms,bad port(s) found: ['tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535']
+dp-hst-bld-01-33a8,gke-dp-api-bld-01-kcl-01-euwe2-c27ca07e-vms,bad port(s) found: ['udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535']
+dp-hst-bld-01-33a8,gke-dp-fdn-bld-01-kcl-01-euwe2-b91b0957-all,udp:all ports
+dp-hst-bld-01-33a8,gke-dp-fdn-bld-01-kcl-01-euwe2-b91b0957-all,tcp:all ports
+dp-hst-bld-01-33a8,gke-dp-fdn-bld-01-kcl-01-euwe2-b91b0957-vms,bad port(s) found: ['udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535']
+dp-hst-bld-01-33a8,gke-dp-fdn-bld-01-kcl-01-euwe2-b91b0957-vms,bad port(s) found: ['tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535']
+dp-hst-bld-01-33a8,ingress-dp-bld-01-hst-cnw-firewall-default-allow-ing,tcp:all ports
+dp-hst-bld-01-33a8,ingress-dp-bld-01-hst-cnw-firewall-vpn-allow-ing,tcp:all ports
+mgmt-iam-tst-55d7,mgmt-iam-automation-tst-net-allow-8000,ip_range: 0.0.0.0
+mgmt-iam-tst-55d7,mgmt-iam-automation-tst-net-allow-http,ip_range: 0.0.0.0
+mgmt-iam-tst-55d7,mgmt-iam-automation-tst-net-allow-http,bad port(s) found: ['tcp:80']
+mgmt-iam-tst-55d7,mgmt-iam-automation-tst-net-allow-https,ip_range: 0.0.0.0
+mgmt-iam-tst-55d7,mgmt-iam-automation-tst-net-allow-ssh,ip_range: 0.0.0.0
+mgmt-iam-tst-55d7,mgmt-iam-automation-tst-net-allow-ssh,bad port(s) found: ['tcp:22']
+mgmt-iam-tst-55d7,mgmt-iam-automation-tst2-net-allow-http,ip_range: 0.0.0.0
+mgmt-iam-tst-55d7,mgmt-iam-automation-tst2-net-allow-http,bad port(s) found: ['tcp:80']
+mgmt-iam-tst-55d7,mgmt-iam-automation-tst2-net-allow-https,ip_range: 0.0.0.0
+mgmt-iam-tst-55d7,mgmt-iam-automation-tst2-net-allow-internal,tcp/udp:all ports
+mgmt-iam-tst-55d7,mgmt-iam-automation-tst2-net-allow-ssh,ip_range: 0.0.0.0
+mgmt-iam-tst-55d7,mgmt-iam-automation-tst2-net-allow-ssh,bad port(s) found: ['tcp:22']
+dev-sec-ide,iap,public target: 35.235.240.0/20
+dev-sec-ide,iap,tcp:all ports
+eplus-hst-int-02-9094,default-allow-egress-801-secondary-peerings-eplus-int-02-hst,tcp/udp:all ports
+eplus-hst-int-02-9094,default-allow-egress-802-peerings-eplus-int-02-hst-cnw,tcp/udp:all ports
+eplus-hst-int-02-9094,default-allow-egress-803-secondary-subnets-eplus-int-02-hst,tcp/udp:all ports
+eplus-hst-int-02-9094,default-allow-egress-804-subnets-eplus-int-02-hst-cnw,tcp/udp:all ports
+eplus-hst-int-02-9094,default-allow-egress-805-secondary-rtr-mgmt-vpn-int-to-eplus,tcp/udp:all ports
+eplus-hst-int-02-9094,default-allow-egress-806-rtr-mgmt-vpn-int-to-eplus-hst-int-0,tcp/udp:all ports
+eplus-hst-int-02-9094,default-allow-egress-807-secondary-rtr-mgmt-vpn-int-to-eplus,tcp/udp:all ports
+eplus-hst-int-02-9094,default-allow-egress-808-rtr-mgmt-vpn-int-to-eplus-hst-int-0,tcp/udp:all ports
+eplus-hst-int-02-9094,default-allow-egress-809-secondary-rtr-mgmt-vpn-int-to-mgmt,tcp/udp:all ports
+eplus-hst-int-02-9094,default-allow-egress-810-rtr-mgmt-vpn-int-to-mgmt-hst-prd-51,tcp/udp:all ports
+eplus-hst-int-02-9094,default-allow-egress-811-gcp-internal,public target: 8.8.4.4/32
+eplus-hst-int-02-9094,default-allow-egress-811-gcp-internal,public target: 199.36.153.4/30
+eplus-hst-int-02-9094,default-allow-egress-811-gcp-internal,public target: 8.8.8.8/32
+eplus-hst-int-02-9094,default-allow-egress-811-gcp-internal,public target: 199.36.153.8/30
+eplus-hst-int-02-9094,default-allow-egress-811-gcp-internal,tcp/udp:all ports
+eplus-hst-int-02-9094,default-allow-egress-812-sendgrid,public target: 169.50.207.103/32
+eplus-hst-int-02-9094,default-allow-egress-812-sendgrid,public target: 159.122.219.48/32
+eplus-hst-int-02-9094,default-allow-egress-812-sendgrid,public target: 159.122.219.55/32
+eplus-hst-int-02-9094,default-allow-egress-812-sendgrid,public target: 159.122.219.43/32
+eplus-hst-int-02-9094,default-allow-egress-812-sendgrid,public target: 159.122.219.36/32
+eplus-hst-int-02-9094,default-allow-egress-812-sendgrid,tcp/udp:all ports
+eplus-hst-int-02-9094,default-allow-ingress-703-secondary-subnets-eplus-int-02-hst,tcp/udp:all ports
+eplus-hst-int-02-9094,default-allow-ingress-704-subnets-eplus-int-02-hst-cnw,tcp/udp:all ports
+Project: eplus-hst-int-02-9094 | Unexpected error: <class 'KeyError'>eplus-hst-pre-01-22f9,default-allow-egress-801-secondary-peerings-eplus-pre-01-hst,tcp/udp:all ports
+eplus-hst-pre-01-22f9,default-allow-egress-802-peerings-eplus-pre-01-hst-cnw,tcp/udp:all ports
+eplus-hst-pre-01-22f9,default-allow-egress-803-secondary-subnets-eplus-pre-01-hst,tcp/udp:all ports
+eplus-hst-pre-01-22f9,default-allow-egress-804-subnets-eplus-pre-01-hst-cnw,tcp/udp:all ports
+eplus-hst-pre-01-22f9,default-allow-egress-805-secondary-rtr-mgmt-hst-pre-d5a6-to,tcp/udp:all ports
+eplus-hst-pre-01-22f9,default-allow-egress-806-rtr-mgmt-hst-pre-d5a6-to-eplus-hst,tcp/udp:all ports
+eplus-hst-pre-01-22f9,default-allow-egress-807-secondary-rtr-mgmt-hst-pre-d5a6-to,tcp/udp:all ports
+eplus-hst-pre-01-22f9,default-allow-egress-808-rtr-mgmt-hst-pre-d5a6-to-mgmt-hst-p,tcp/udp:all ports
+eplus-hst-pre-01-22f9,default-allow-egress-809-rtr-mgmt-pre-euwe2-rtr-interconnect,tcp/udp:all ports
+eplus-hst-pre-01-22f9,default-allow-egress-810-gcp-internal,public target: 8.8.4.4/32
+eplus-hst-pre-01-22f9,default-allow-egress-810-gcp-internal,public target: 199.36.153.4/30
+eplus-hst-pre-01-22f9,default-allow-egress-810-gcp-internal,public target: 8.8.8.8/32
+eplus-hst-pre-01-22f9,default-allow-egress-810-gcp-internal,public target: 199.36.153.8/30
+eplus-hst-pre-01-22f9,default-allow-egress-810-gcp-internal,tcp/udp:all ports
+eplus-hst-pre-01-22f9,default-allow-egress-811-sendgrid,public target: 169.50.207.103/32
+eplus-hst-pre-01-22f9,default-allow-egress-811-sendgrid,public target: 159.122.219.48/32
+eplus-hst-pre-01-22f9,default-allow-egress-811-sendgrid,public target: 159.122.219.55/32
+eplus-hst-pre-01-22f9,default-allow-egress-811-sendgrid,public target: 159.122.219.43/32
+eplus-hst-pre-01-22f9,default-allow-egress-811-sendgrid,public target: 159.122.219.36/32
+eplus-hst-pre-01-22f9,default-allow-egress-811-sendgrid,tcp/udp:all ports
+eplus-hst-pre-01-22f9,default-allow-ingress-703-secondary-subnets-eplus-pre-01-hst,tcp/udp:all ports
+eplus-hst-pre-01-22f9,default-allow-ingress-704-subnets-eplus-pre-01-hst-cnw,tcp/udp:all ports
+Project: eplus-hst-pre-01-22f9 | Unexpected error: <class 'KeyError'>eplus-hst-prd-01-2337,debug-bootstrap-egress,ip_range: 0.0.0.0
+eplus-hst-prd-01-2337,debug-bootstrap-egress,tcp/udp:all ports
+eplus-hst-prd-01-2337,debug-bootstrap-ingress,ip_range: 0.0.0.0
+eplus-hst-prd-01-2337,debug-bootstrap-ingress,tcp/udp:all ports
+eplus-hst-prd-01-2337,default-allow-egress-801-secondary-peerings-eplus-prd-01-hst,tcp/udp:all ports
+eplus-hst-prd-01-2337,default-allow-egress-802-peerings-eplus-prd-01-hst-cnw,tcp/udp:all ports
+eplus-hst-prd-01-2337,default-allow-egress-803-secondary-subnets-eplus-prd-01-hst,tcp/udp:all ports
+eplus-hst-prd-01-2337,default-allow-egress-804-subnets-eplus-prd-01-hst-cnw,tcp/udp:all ports
+eplus-hst-prd-01-2337,default-allow-egress-805-secondary-vpn-mgmt-prd-hst-cnw,tcp/udp:all ports
+eplus-hst-prd-01-2337,default-allow-egress-806-vpn-mgmt-prd-hst-cnw,tcp/udp:all ports
+eplus-hst-prd-01-2337,default-allow-egress-807-secondary-rtr-mgmt-hst-prd-5100-to,tcp/udp:all ports
+eplus-hst-prd-01-2337,default-allow-egress-808-rtr-mgmt-hst-prd-5100-to-mgmt-hst-p,tcp/udp:all ports
+eplus-hst-prd-01-2337,default-allow-egress-809-secondary-rtr-mgmt-hst-prd-5100-to,tcp/udp:all ports
+eplus-hst-prd-01-2337,default-allow-egress-810-rtr-mgmt-hst-prd-5100-to-mgmt-vpn-i,tcp/udp:all ports
+eplus-hst-prd-01-2337,default-allow-egress-811-secondary-rtr-mgmt-prd-euwe2-rtr-in,tcp/udp:all ports
+eplus-hst-prd-01-2337,default-allow-egress-812-rtr-mgmt-prd-euwe2-rtr-interconnect,tcp/udp:all ports
+eplus-hst-prd-01-2337,default-allow-egress-813-secondary-rtr-to-eplus-hst-prd-01,tcp/udp:all ports
+eplus-hst-prd-01-2337,default-allow-egress-814-rtr-to-eplus-hst-prd-01,tcp/udp:all ports
+eplus-hst-prd-01-2337,default-allow-egress-815-gcp-internal,public target: 8.8.4.4/32
+eplus-hst-prd-01-2337,default-allow-egress-815-gcp-internal,public target: 199.36.153.4/30
+eplus-hst-prd-01-2337,default-allow-egress-815-gcp-internal,public target: 8.8.8.8/32
+eplus-hst-prd-01-2337,default-allow-egress-815-gcp-internal,public target: 199.36.153.8/30
+eplus-hst-prd-01-2337,default-allow-egress-815-gcp-internal,tcp/udp:all ports
+eplus-hst-prd-01-2337,default-allow-egress-816-sendgrid,public target: 169.50.207.103/32
+eplus-hst-prd-01-2337,default-allow-egress-816-sendgrid,public target: 159.122.219.48/32
+eplus-hst-prd-01-2337,default-allow-egress-816-sendgrid,public target: 159.122.219.55/32
+eplus-hst-prd-01-2337,default-allow-egress-816-sendgrid,public target: 159.122.219.43/32
+eplus-hst-prd-01-2337,default-allow-egress-816-sendgrid,public target: 159.122.219.36/32
+eplus-hst-prd-01-2337,default-allow-egress-816-sendgrid,tcp/udp:all ports
+eplus-hst-prd-01-2337,default-allow-ingress-703-secondary-subnets-eplus-prd-01-hst,tcp/udp:all ports
+eplus-hst-prd-01-2337,default-allow-ingress-704-subnets-eplus-prd-01-hst-cnw,tcp/udp:all ports
+Project: eplus-hst-prd-01-2337 | Unexpected error: <class 'KeyError'>eplus-hst-int-01-543e,default-allow-egress-801-secondary-peerings-eplus-int-01-hst,tcp/udp:all ports
+eplus-hst-int-01-543e,default-allow-egress-802-peerings-eplus-int-01-hst-cnw,tcp/udp:all ports
+eplus-hst-int-01-543e,default-allow-egress-803-secondary-subnets-eplus-int-01-hst,tcp/udp:all ports
+eplus-hst-int-01-543e,default-allow-egress-804-subnets-eplus-int-01-hst-cnw,tcp/udp:all ports
+eplus-hst-int-01-543e,default-allow-egress-805-secondary-rtr-mgmt-vpn-int-to-eplus,tcp/udp:all ports
+eplus-hst-int-01-543e,default-allow-egress-806-rtr-mgmt-vpn-int-to-eplus-hst-int-0,tcp/udp:all ports
+eplus-hst-int-01-543e,default-allow-egress-807-secondary-rtr-mgmt-vpn-int-to-eplus,tcp/udp:all ports
+eplus-hst-int-01-543e,default-allow-egress-808-rtr-mgmt-vpn-int-to-eplus-hst-int-0,tcp/udp:all ports
+eplus-hst-int-01-543e,default-allow-egress-809-secondary-rtr-mgmt-vpn-int-to-mgmt,tcp/udp:all ports
+eplus-hst-int-01-543e,default-allow-egress-810-rtr-mgmt-vpn-int-to-mgmt-hst-prd-51,tcp/udp:all ports
+eplus-hst-int-01-543e,default-allow-egress-811-gcp-internal,public target: 8.8.4.4/32
+eplus-hst-int-01-543e,default-allow-egress-811-gcp-internal,public target: 199.36.153.4/30
+eplus-hst-int-01-543e,default-allow-egress-811-gcp-internal,public target: 8.8.8.8/32
+eplus-hst-int-01-543e,default-allow-egress-811-gcp-internal,public target: 199.36.153.8/30
+eplus-hst-int-01-543e,default-allow-egress-811-gcp-internal,tcp/udp:all ports
+eplus-hst-int-01-543e,default-allow-egress-812-sendgrid,public target: 169.50.207.103/32
+eplus-hst-int-01-543e,default-allow-egress-812-sendgrid,public target: 159.122.219.48/32
+eplus-hst-int-01-543e,default-allow-egress-812-sendgrid,public target: 159.122.219.55/32
+eplus-hst-int-01-543e,default-allow-egress-812-sendgrid,public target: 159.122.219.43/32
+eplus-hst-int-01-543e,default-allow-egress-812-sendgrid,public target: 159.122.219.36/32
+eplus-hst-int-01-543e,default-allow-egress-812-sendgrid,tcp/udp:all ports
+eplus-hst-int-01-543e,default-allow-ingress-703-secondary-subnets-eplus-int-01-hst,tcp/udp:all ports
+eplus-hst-int-01-543e,default-allow-ingress-704-subnets-eplus-int-01-hst-cnw,tcp/udp:all ports
+Project: eplus-hst-int-01-543e | Unexpected error: <class 'KeyError'>tfci-ci2-tst-2d14,allow-internal-egress-gke-private-network-subnets,ip_range: 0.0.0.0
+tfci-ci2-tst-2d14,allow-internal-egress-gke-private-network-subnets,tcp/udp:all ports
+tfci-ci1-tst-3369,all1,ip_range: 0.0.0.0
+tfci-ci1-tst-3369,all1,tcp/udp:all ports
+tfci-ci1-tst-3369,rdprule,ip_range: 0.0.0.0
+tfci-ci1-tst-3369,rdprule,bad port(s) found: ['tcp:3389']
+tfci-ci1-tst-3369,ssh,ip_range: 0.0.0.0
+tfci-ci1-tst-3369,ssh,bad port(s) found: ['tcp:22']
+tfci-ci1-tst-3369,vpn-1-egr,ip_range: 0.0.0.0
+tfci-ci1-tst-3369,vpn-1-egr,tcp/udp:all ports
+tfci-ci1-tst-3369,vpn-1-ing,ip_range: 0.0.0.0
+tfci-ci1-tst-3369,vpn-1-ing,public target: 92.237.147.37
+tfci-ci1-tst-3369,vpn-1-ing,tcp/udp:all ports
+tfci-ci1-tst-3369,vpn-2-egr,ip_range: 0.0.0.0
+tfci-ci1-tst-3369,vpn-2-egr,tcp/udp:all ports
+tfci-ci1-tst-3369,vpn-2-ing,public target: 92.237.147.37/32
+tfci-ci1-tst-3369,vpn-2-ing,ip_range: 0.0.0.0
+tfci-ci1-tst-3369,vpn-2-ing,tcp/udp:all ports
+tfci-ci1-tst-3369,vpn-3-egr,ip_range: 0.0.0.0
+tfci-ci1-tst-3369,vpn-3-egr,tcp/udp:all ports
+tfci-ci1-tst-3369,vpn-3-ingr,ip_range: 0.0.0.0
+tfci-ci1-tst-3369,vpn-3-ingr,public target: 92.237.147.37
+tfci-ci1-tst-3369,vpn-3-ingr,tcp/udp:all ports
+tfci-hst-tst-860b,egress-tfci-tst-hst-cnw-firewall-default-allow-egr,tcp/udp:all ports
+tfci-hst-tst-860b,egress-tfci-tst-hst-cnw-firewall-pvtgoogleapi-allow-egr,public target: 199.36.153.11
+tfci-hst-tst-860b,egress-tfci-tst-hst-cnw-firewall-pvtgoogleapi-allow-egr,public target: 199.36.153.9
+tfci-hst-tst-860b,egress-tfci-tst-hst-cnw-firewall-pvtgoogleapi-allow-egr,public target: 199.36.153.8
+tfci-hst-tst-860b,egress-tfci-tst-hst-cnw-firewall-pvtgoogleapi-allow-egr,public target: 199.36.153.10
+tfci-hst-tst-860b,egress-tfci-tst-hst-cnw-firewall-pvtgoogleapi-allow-egr,tcp/udp:all ports
+tfci-hst-tst-860b,egress-tfci-tst-hst-cnw-firewall-restrictedapi-allow-egr,public target: 199.36.153.6
+tfci-hst-tst-860b,egress-tfci-tst-hst-cnw-firewall-restrictedapi-allow-egr,public target: 199.36.153.7
+tfci-hst-tst-860b,egress-tfci-tst-hst-cnw-firewall-restrictedapi-allow-egr,public target: 199.36.153.5
+tfci-hst-tst-860b,egress-tfci-tst-hst-cnw-firewall-restrictedapi-allow-egr,public target: 199.36.153.4
+tfci-hst-tst-860b,egress-tfci-tst-hst-cnw-firewall-restrictedapi-allow-egr,tcp/udp:all ports
+tfci-hst-tst-860b,gke-tfci-icp-tst-kcl-euwe2-1713b382-all,tcp:all ports
+tfci-hst-tst-860b,gke-tfci-icp-tst-kcl-euwe2-1713b382-all,udp:all ports
+tfci-hst-tst-860b,gke-tfci-icp-tst-kcl-euwe2-1713b382-vms,bad port(s) found: ['tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535']
+tfci-hst-tst-860b,gke-tfci-icp-tst-kcl-euwe2-1713b382-vms,bad port(s) found: ['udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535']
+tfci-hst-tst-860b,gke-tfci-isp-tst-kcl-euwe2-2a34d5e6-all,udp:all ports
+tfci-hst-tst-860b,gke-tfci-isp-tst-kcl-euwe2-2a34d5e6-all,tcp:all ports
+tfci-hst-tst-860b,gke-tfci-isp-tst-kcl-euwe2-2a34d5e6-vms,bad port(s) found: ['tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535']
+tfci-hst-tst-860b,gke-tfci-isp-tst-kcl-euwe2-2a34d5e6-vms,bad port(s) found: ['udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535']
+tfci-hst-tst-860b,ingress-tfci-tst-hst-cnw-firewall-default-allow-ing,tcp/udp:all ports
+tfci-hst-tst-860b,ingress-tfci-tst-hst-cnw-firewall-glcb-hc-icp,public target: 209.85.204.0/22
+tfci-hst-tst-860b,ingress-tfci-tst-hst-cnw-firewall-glcb-hc-icp,public target: 209.85.152.0/22
+tfci-hst-tst-860b,ingress-tfci-tst-hst-cnw-firewall-glcb-hc-icp,public target: 130.211.0.0/22
+tfci-hst-tst-860b,ingress-tfci-tst-hst-cnw-firewall-glcb-hc-icp,public target: 35.191.0.0/16
+tfci-hst-tst-860b,ingress-tfci-tst-hst-cnw-firewall-glcb-hc-icp,bad port(s) found: ['tcp:80']
+tfci-hst-tst-860b,ingress-tfci-tst-hst-cnw-firewall-vpn-subnet-tst,tcp/udp:all ports
+eplus-hst-bld-02-8e0b,default-allow-egress-801-secondary-peerings-eplus-bld-02-hst,tcp/udp:all ports
+eplus-hst-bld-02-8e0b,default-allow-egress-802-peerings-eplus-bld-02-hst-cnw,tcp/udp:all ports
+eplus-hst-bld-02-8e0b,default-allow-egress-803-secondary-subnets-eplus-bld-02-hst,tcp/udp:all ports
+eplus-hst-bld-02-8e0b,default-allow-egress-804-subnets-eplus-bld-02-hst-cnw,tcp/udp:all ports
+eplus-hst-bld-02-8e0b,default-allow-egress-805-secondary-vpn-mgmt-bld-hst-cnw,tcp/udp:all ports
+eplus-hst-bld-02-8e0b,default-allow-egress-806-vpn-mgmt-bld-hst-cnw,tcp/udp:all ports
+eplus-hst-bld-02-8e0b,default-allow-egress-807-secondary-rtr-bld-rtr-mgmt-bld-hst,tcp/udp:all ports
+eplus-hst-bld-02-8e0b,default-allow-egress-808-rtr-bld-rtr-mgmt-bld-hst-cnw,tcp/udp:all ports
+eplus-hst-bld-02-8e0b,default-allow-egress-809-gcp-internal,public target: 8.8.4.4/32
+eplus-hst-bld-02-8e0b,default-allow-egress-809-gcp-internal,public target: 199.36.153.4/30
+eplus-hst-bld-02-8e0b,default-allow-egress-809-gcp-internal,public target: 8.8.8.8/32
+eplus-hst-bld-02-8e0b,default-allow-egress-809-gcp-internal,public target: 199.36.153.8/30
+eplus-hst-bld-02-8e0b,default-allow-egress-809-gcp-internal,tcp/udp:all ports
+eplus-hst-bld-02-8e0b,default-allow-egress-810-sendgrid,public target: 169.50.207.103/32
+eplus-hst-bld-02-8e0b,default-allow-egress-810-sendgrid,public target: 159.122.219.48/32
+eplus-hst-bld-02-8e0b,default-allow-egress-810-sendgrid,public target: 159.122.219.55/32
+eplus-hst-bld-02-8e0b,default-allow-egress-810-sendgrid,public target: 159.122.219.43/32
+eplus-hst-bld-02-8e0b,default-allow-egress-810-sendgrid,public target: 159.122.219.36/32
+eplus-hst-bld-02-8e0b,default-allow-egress-810-sendgrid,tcp/udp:all ports
+eplus-hst-bld-02-8e0b,default-allow-ingress-703-secondary-subnets-eplus-bld-02-hst,tcp/udp:all ports
+eplus-hst-bld-02-8e0b,default-allow-ingress-704-subnets-eplus-bld-02-hst-cnw,tcp/udp:all ports
+Project: eplus-hst-bld-02-8e0b | Unexpected error: <class 'KeyError'>mgmt-hst-bld-da0d,default-allow-egress-801-peerings-mgmt-bld-hst-cnw,tcp/udp:all ports
+mgmt-hst-bld-da0d,default-allow-egress-802-secondary-subnets-mgmt-bld-hst-cnw,tcp/udp:all ports
+mgmt-hst-bld-da0d,default-allow-egress-803-subnets-mgmt-bld-hst-cnw,tcp/udp:all ports
+mgmt-hst-bld-da0d,default-allow-egress-804-secondary-vpn-dp-bld-01-hst-cnw,tcp/udp:all ports
+mgmt-hst-bld-da0d,default-allow-egress-805-vpn-dp-bld-01-hst-cnw,tcp/udp:all ports
+mgmt-hst-bld-da0d,default-allow-egress-806-rtr-bld-rtr-dp-bld-01-hst-cnw,tcp/udp:all ports
+mgmt-hst-bld-da0d,default-allow-egress-807-rtr-dp-rtr-dp-bld-01-hst-cnw,tcp/udp:all ports
+mgmt-hst-bld-da0d,default-allow-egress-808-secondary-vpn-eplus-bld-02-hst-cnw,tcp/udp:all ports
+mgmt-hst-bld-da0d,default-allow-egress-809-vpn-eplus-bld-02-hst-cnw,tcp/udp:all ports
+mgmt-hst-bld-da0d,default-allow-egress-810-secondary-rtr-bld-rtr-eplus-bld-02,tcp/udp:all ports
+mgmt-hst-bld-da0d,default-allow-egress-811-rtr-bld-rtr-eplus-bld-02-hst-cnw,tcp/udp:all ports
+mgmt-hst-bld-da0d,default-allow-egress-812-secondary-rtr-eplus-hst-bld-02,tcp/udp:all ports
+mgmt-hst-bld-da0d,default-allow-egress-813-rtr-eplus-hst-bld-02,tcp/udp:all ports
+mgmt-hst-bld-da0d,default-allow-egress-814-gcp-internal,public target: 8.8.4.4/32
+mgmt-hst-bld-da0d,default-allow-egress-814-gcp-internal,public target: 199.36.153.4/30
+mgmt-hst-bld-da0d,default-allow-egress-814-gcp-internal,public target: 8.8.8.8/32
+mgmt-hst-bld-da0d,default-allow-egress-814-gcp-internal,public target: 199.36.153.8/30
+mgmt-hst-bld-da0d,default-allow-egress-814-gcp-internal,tcp/udp:all ports
+mgmt-hst-bld-da0d,default-allow-egress-815-sendgrid,public target: 169.50.207.103/32
+mgmt-hst-bld-da0d,default-allow-egress-815-sendgrid,public target: 159.122.219.48/32
+mgmt-hst-bld-da0d,default-allow-egress-815-sendgrid,public target: 159.122.219.55/32
+mgmt-hst-bld-da0d,default-allow-egress-815-sendgrid,public target: 159.122.219.43/32
+mgmt-hst-bld-da0d,default-allow-egress-815-sendgrid,public target: 159.122.219.36/32
+mgmt-hst-bld-da0d,default-allow-egress-815-sendgrid,tcp/udp:all ports
+mgmt-hst-bld-da0d,default-allow-ingress-702-secondary-subnets-mgmt-bld-hst-cnw,tcp/udp:all ports
+mgmt-hst-bld-da0d,default-allow-ingress-703-subnets-mgmt-bld-hst-cnw,tcp/udp:all ports
+mgmt-hst-bld-da0d,default-squid-allow,ip_range: 0.0.0.0
+mgmt-hst-bld-da0d,default-squid-allow,tcp/udp:all ports
+mgmt-hst-bld-da0d,egress-mgmt-bld-hst-cnw-firewall-bakery-allow-egr,ip_range: 0.0.0.0
+mgmt-hst-bld-da0d,egress-mgmt-bld-hst-cnw-firewall-bakery-allow-egr,tcp/udp:all ports
+mgmt-hst-bld-da0d,egress-mgmt-bld-hst-cnw-firewall-openvpn-allow-egr-external,ip_range: 0.0.0.0
+mgmt-hst-bld-da0d,egress-mgmt-bld-hst-cnw-firewall-openvpn-allow-egr-external,bad port(s) found: ['tcp:80', 'tcp:25', 'tcp:53']
+mgmt-hst-bld-da0d,egress-mgmt-bld-hst-cnw-firewall-openvpn-allow-egr-internal,ip_range: 0.0.0.0
+mgmt-hst-bld-da0d,egress-mgmt-bld-hst-cnw-firewall-openvpn-allow-egr-internal,tcp/udp:all ports
+mgmt-hst-bld-da0d,egress-mgmt-bld-hst-cnw-firewall-squid-allow-egr,ip_range: 0.0.0.0
+mgmt-hst-bld-da0d,egress-mgmt-bld-hst-cnw-firewall-squid-allow-egr,tcp/udp:all ports
+mgmt-hst-bld-da0d,gke-mgm-ple-bld-kcl-euwe2-e65b7038-all,tcp:all ports
+mgmt-hst-bld-da0d,gke-mgm-ple-bld-kcl-euwe2-e65b7038-all,udp:all ports
+mgmt-hst-bld-da0d,gke-mgm-ple-bld-kcl-euwe2-e65b7038-vms,bad port(s) found: ['tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535']
+mgmt-hst-bld-da0d,gke-mgm-ple-bld-kcl-euwe2-e65b7038-vms,bad port(s) found: ['udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535']
+mgmt-hst-bld-da0d,gke-mgmt-bak-bld-kcl-01-euwe2-bakery-6e93f68b-all,tcp:all ports
+mgmt-hst-bld-da0d,gke-mgmt-bak-bld-kcl-01-euwe2-bakery-6e93f68b-all,udp:all ports
+mgmt-hst-bld-da0d,gke-mgmt-bak-bld-kcl-01-euwe2-bakery-6e93f68b-vms,bad port(s) found: ['tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535']
+mgmt-hst-bld-da0d,gke-mgmt-bak-bld-kcl-01-euwe2-bakery-6e93f68b-vms,bad port(s) found: ['udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535']
+mgmt-hst-bld-da0d,gke-mgmt-egr-bld-kcl-01-euwe2-egress-2fd6e7f1-all,tcp:all ports
+mgmt-hst-bld-da0d,gke-mgmt-egr-bld-kcl-01-euwe2-egress-2fd6e7f1-all,udp:all ports
+mgmt-hst-bld-da0d,gke-mgmt-egr-bld-kcl-01-euwe2-egress-2fd6e7f1-vms,bad port(s) found: ['tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535']
+mgmt-hst-bld-da0d,gke-mgmt-egr-bld-kcl-01-euwe2-egress-2fd6e7f1-vms,bad port(s) found: ['udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535']
+mgmt-hst-bld-da0d,gke-mgmt-egr-bld-kcl-euwe2-adb8d1d4-all,tcp:all ports
+mgmt-hst-bld-da0d,gke-mgmt-egr-bld-kcl-euwe2-adb8d1d4-all,udp:all ports
+mgmt-hst-bld-da0d,gke-mgmt-egr-bld-kcl-euwe2-adb8d1d4-vms,bad port(s) found: ['tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535']
+mgmt-hst-bld-da0d,gke-mgmt-egr-bld-kcl-euwe2-adb8d1d4-vms,bad port(s) found: ['udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535']
+mgmt-hst-bld-da0d,gke-mgmt-ple-bld-kcl-01-euwe2-build-6f764c14-all,tcp:all ports
+mgmt-hst-bld-da0d,gke-mgmt-ple-bld-kcl-01-euwe2-build-6f764c14-all,udp:all ports
+mgmt-hst-bld-da0d,gke-mgmt-ple-bld-kcl-01-euwe2-build-6f764c14-vms,bad port(s) found: ['udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535']
+mgmt-hst-bld-da0d,gke-mgmt-ple-bld-kcl-01-euwe2-build-6f764c14-vms,bad port(s) found: ['tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535']
+mgmt-hst-bld-da0d,ingress-all-prd-subnets,bad port(s) found: ['tcp:25', 'tcp:80']
+mgmt-hst-bld-da0d,ingress-all-prd-subnets,bad port(s) found: ['udp:53']
+mgmt-hst-bld-da0d,ingress-bak-gce,tcp/udp:all ports
+mgmt-hst-bld-da0d,ingress-vpn-subnet,tcp/udp:all ports
+mgmt-hst-bld-da0d,k8s-fw-l7--f170a9a9ff093d46,public target: 130.211.0.0/22
+mgmt-hst-bld-da0d,k8s-fw-l7--f170a9a9ff093d46,public target: 209.85.152.0/22
+mgmt-hst-bld-da0d,k8s-fw-l7--f170a9a9ff093d46,public target: 209.85.204.0/22
+mgmt-hst-bld-da0d,k8s-fw-l7--f170a9a9ff093d46,public target: 35.191.0.0/16
+mgmt-hst-bld-da0d,mgmt-bak-bld-fwr-euwest2-postgres-pyt-ingress,bad port(s) found: ['tcp:80']
+mgmt-hst-bld-da0d,mgmt-bld-1733-fwr-ingress-euwe2-openvpn-1541,ip_range: 0.0.0.0
+mgmt-hst-bld-da0d,mgmt-bld-1733-fwr-ingress-euwe2-openvpn-8501,ip_range: 0.0.0.0
+mgmt-hst-bld-da0d,mgmt-bld-1733-fwr-ovpn-allow-api-traffic-euwe2-openvpn-1541,public target: 199.36.153.4/30
+mgmt-hst-bld-da0d,mgmt-bld-1733-fwr-ovpn-allow-api-traffic-euwe2-openvpn-1541,public target: 199.36.153.8/30
+mgmt-hst-bld-da0d,mgmt-bld-1733-fwr-ovpn-allow-api-traffic-euwe2-openvpn-1541,bad port(s) found: ['tcp:80']
+mgmt-hst-bld-da0d,mgmt-bld-1733-fwr-ovpn-allow-api-traffic-euwe2-openvpn-8501,public target: 199.36.153.4/30
+mgmt-hst-bld-da0d,mgmt-bld-1733-fwr-ovpn-allow-api-traffic-euwe2-openvpn-8501,public target: 199.36.153.8/30
+mgmt-hst-bld-da0d,mgmt-bld-1733-fwr-ovpn-allow-api-traffic-euwe2-openvpn-8501,bad port(s) found: ['tcp:80']
+mgmt-hst-bld-da0d,mgmt-bld-1733-fwr-ovpn-allow-http-euwe2-openvpn-1541,bad port(s) found: ['tcp:80']
+mgmt-hst-bld-da0d,mgmt-bld-1733-fwr-ovpn-allow-http-euwe2-openvpn-8501,bad port(s) found: ['tcp:80']
+mgmt-hst-bld-da0d,mgmt-bld-1733-fwr-ovpn-allow-secldap-euwe2-openvpn-1541,ip_range: 0.0.0.0
+mgmt-hst-bld-da0d,mgmt-bld-1733-fwr-ovpn-allow-secldap-euwe2-openvpn-8501,ip_range: 0.0.0.0
+mgmt-hst-bld-da0d,mgmt-bld-1733-fwr-ovpn-allow-smtp-euwe2-openvpn-8501,bad port(s) found: ['tcp:25']
+mgmt-hst-bld-da0d,mgmt-bld-1733-fwr-ovpn-allow-user-traffic-euwe2-openvpn-1541,ip_range: 0.0.0.0
+mgmt-hst-bld-da0d,mgmt-bld-1733-fwr-ovpn-allow-user-traffic-euwe2-openvpn-8501,ip_range: 0.0.0.0
+mgmt-hst-bld-da0d,openvpn-egress-ba1aed96,ip_range: 0.0.0.0
+mgmt-hst-bld-da0d,openvpn-egress-ba1aed96,tcp/udp:all ports
+mgmt-hst-bld-da0d,openvpn-ingress-ba1aed96,ip_range: 0.0.0.0
+mgmt-hst-prd-5100,default-allow-egress-801-peerings-mgmt-prd-hst-cnw,tcp/udp:all ports
+mgmt-hst-prd-5100,default-allow-egress-802-secondary-subnets-mgmt-prd-hst-cnw,tcp/udp:all ports
+mgmt-hst-prd-5100,default-allow-egress-803-subnets-mgmt-prd-hst-cnw,tcp/udp:all ports
+mgmt-hst-prd-5100,default-allow-egress-804-secondary-vpn-eplus-prd-01-hst-cnw,tcp/udp:all ports
+mgmt-hst-prd-5100,default-allow-egress-805-vpn-eplus-prd-01-hst-cnw,tcp/udp:all ports
+mgmt-hst-prd-5100,default-allow-egress-806-secondary-rtr-eplus-hst-prd-01,tcp/udp:all ports
+mgmt-hst-prd-5100,default-allow-egress-807-rtr-eplus-hst-prd-01,tcp/udp:all ports
+mgmt-hst-prd-5100,default-allow-egress-808-secondary-rtr-mgmt-hst-pre-d5a6-to,tcp/udp:all ports
+mgmt-hst-prd-5100,default-allow-egress-809-rtr-mgmt-hst-pre-d5a6-to-eplus-hst,tcp/udp:all ports
+mgmt-hst-prd-5100,default-allow-egress-810-secondary-rtr-mgmt-hst-pre-d5a6-to,tcp/udp:all ports
+mgmt-hst-prd-5100,default-allow-egress-811-rtr-mgmt-hst-pre-d5a6-to-mgmt-hst-p,tcp/udp:all ports
+mgmt-hst-prd-5100,default-allow-egress-812-rtr-mgmt-pre-euwe2-rtr-interconnect,tcp/udp:all ports
+mgmt-hst-prd-5100,default-allow-egress-813-secondary-rtr-mgmt-vpn-int-to-eplus,tcp/udp:all ports
+mgmt-hst-prd-5100,default-allow-egress-814-rtr-mgmt-vpn-int-to-eplus-hst-int-0,tcp/udp:all ports
+mgmt-hst-prd-5100,default-allow-egress-815-secondary-rtr-mgmt-vpn-int-to-eplus,tcp/udp:all ports
+mgmt-hst-prd-5100,default-allow-egress-816-rtr-mgmt-vpn-int-to-eplus-hst-int-0,tcp/udp:all ports
+mgmt-hst-prd-5100,default-allow-egress-817-secondary-rtr-mgmt-vpn-int-to-mgmt,tcp/udp:all ports
+mgmt-hst-prd-5100,default-allow-egress-818-rtr-mgmt-vpn-int-to-mgmt-hst-prd-51,tcp/udp:all ports
+mgmt-hst-prd-5100,default-allow-egress-819-gcp-internal,public target: 8.8.4.4/32
+mgmt-hst-prd-5100,default-allow-egress-819-gcp-internal,public target: 199.36.153.4/30
+mgmt-hst-prd-5100,default-allow-egress-819-gcp-internal,public target: 8.8.8.8/32
+mgmt-hst-prd-5100,default-allow-egress-819-gcp-internal,public target: 199.36.153.8/30
+mgmt-hst-prd-5100,default-allow-egress-819-gcp-internal,tcp/udp:all ports
+mgmt-hst-prd-5100,default-allow-egress-820-sendgrid,public target: 169.50.207.103/32
+mgmt-hst-prd-5100,default-allow-egress-820-sendgrid,public target: 159.122.219.48/32
+mgmt-hst-prd-5100,default-allow-egress-820-sendgrid,public target: 159.122.219.55/32
+mgmt-hst-prd-5100,default-allow-egress-820-sendgrid,public target: 159.122.219.43/32
+mgmt-hst-prd-5100,default-allow-egress-820-sendgrid,public target: 159.122.219.36/32
+mgmt-hst-prd-5100,default-allow-egress-820-sendgrid,tcp/udp:all ports
+mgmt-hst-prd-5100,default-allow-ingress-702-secondary-subnets-mgmt-prd-hst-cnw,tcp/udp:all ports
+mgmt-hst-prd-5100,default-allow-ingress-703-subnets-mgmt-prd-hst-cnw,tcp/udp:all ports
+mgmt-hst-prd-5100,egress-eplus-hst-prod,ip_range: 0.0.0.0
+mgmt-hst-prd-5100,egress-eplus-hst-prod,public target: 172.0.0.0/8
+mgmt-hst-prd-5100,egress-eplus-hst-prod,tcp/udp:all ports
+mgmt-hst-prd-5100,egress-mgmt-prd-hst-cnw-firewall-squid-allow-egr,ip_range: 0.0.0.0
+mgmt-hst-prd-5100,egress-mgmt-prd-hst-cnw-firewall-squid-allow-egr,tcp/udp:all ports
+mgmt-hst-prd-5100,gke-mgmt-bak-prd-kcl-01-euwe2-bakery-baa584d2-all,tcp:all ports
+mgmt-hst-prd-5100,gke-mgmt-bak-prd-kcl-01-euwe2-bakery-baa584d2-all,udp:all ports
+mgmt-hst-prd-5100,gke-mgmt-bak-prd-kcl-01-euwe2-bakery-baa584d2-vms,bad port(s) found: ['tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535']
+mgmt-hst-prd-5100,gke-mgmt-bak-prd-kcl-01-euwe2-bakery-baa584d2-vms,bad port(s) found: ['udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535']
+mgmt-hst-prd-5100,gke-mgmt-cmp-prd-kcl-euwe2-compliance-c8c5229e-all,tcp:all ports
+mgmt-hst-prd-5100,gke-mgmt-cmp-prd-kcl-euwe2-compliance-c8c5229e-all,udp:all ports
+mgmt-hst-prd-5100,gke-mgmt-cmp-prd-kcl-euwe2-compliance-c8c5229e-vms,bad port(s) found: ['tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535']
+mgmt-hst-prd-5100,gke-mgmt-cmp-prd-kcl-euwe2-compliance-c8c5229e-vms,bad port(s) found: ['udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535']
+mgmt-hst-prd-5100,gke-mgmt-egr-prd-kcl-01-euwe2-egress-77ca0320-all,tcp:all ports
+mgmt-hst-prd-5100,gke-mgmt-egr-prd-kcl-01-euwe2-egress-77ca0320-all,udp:all ports
+mgmt-hst-prd-5100,gke-mgmt-egr-prd-kcl-01-euwe2-egress-77ca0320-vms,bad port(s) found: ['tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535']
+mgmt-hst-prd-5100,gke-mgmt-egr-prd-kcl-01-euwe2-egress-77ca0320-vms,bad port(s) found: ['udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535']
+mgmt-hst-prd-5100,gke-mgmt-egr-prd-kcl-euwe2-0b75fc67-all,tcp:all ports
+mgmt-hst-prd-5100,gke-mgmt-egr-prd-kcl-euwe2-0b75fc67-all,udp:all ports
+mgmt-hst-prd-5100,gke-mgmt-egr-prd-kcl-euwe2-0b75fc67-vms,bad port(s) found: ['tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535']
+mgmt-hst-prd-5100,gke-mgmt-egr-prd-kcl-euwe2-0b75fc67-vms,bad port(s) found: ['udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535']
+mgmt-hst-prd-5100,gke-mgmt-ple-prd-kcl-01-euwe2-prov-911fab4a-all,tcp:all ports
+mgmt-hst-prd-5100,gke-mgmt-ple-prd-kcl-01-euwe2-prov-911fab4a-all,udp:all ports
+mgmt-hst-prd-5100,gke-mgmt-ple-prd-kcl-01-euwe2-prov-911fab4a-vms,bad port(s) found: ['tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535']
+mgmt-hst-prd-5100,gke-mgmt-ple-prd-kcl-01-euwe2-prov-911fab4a-vms,bad port(s) found: ['udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535']
+mgmt-hst-prd-5100,gke-mgmt-ple-prd-kcl-euwe2-09cbe4a3-all,tcp:all ports
+mgmt-hst-prd-5100,gke-mgmt-ple-prd-kcl-euwe2-09cbe4a3-all,udp:all ports
+mgmt-hst-prd-5100,gke-mgmt-ple-prd-kcl-euwe2-09cbe4a3-vms,bad port(s) found: ['tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535']
+mgmt-hst-prd-5100,gke-mgmt-ple-prd-kcl-euwe2-09cbe4a3-vms,bad port(s) found: ['udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535']
+mgmt-hst-prd-5100,gke-mgmt-spi-prd-01-kcl-01-euwe2-spinnaker-f1c403a7-all,tcp:all ports
+mgmt-hst-prd-5100,gke-mgmt-spi-prd-01-kcl-01-euwe2-spinnaker-f1c403a7-all,udp:all ports
+mgmt-hst-prd-5100,gke-mgmt-spi-prd-01-kcl-01-euwe2-spinnaker-f1c403a7-vms,bad port(s) found: ['tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535']
+mgmt-hst-prd-5100,gke-mgmt-spi-prd-01-kcl-01-euwe2-spinnaker-f1c403a7-vms,bad port(s) found: ['udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535']
+mgmt-hst-prd-5100,gke-mgmt-spi-prd-kcl-euwe2-44e9d61b-all,tcp:all ports
+mgmt-hst-prd-5100,gke-mgmt-spi-prd-kcl-euwe2-44e9d61b-all,udp:all ports
+mgmt-hst-prd-5100,gke-mgmt-spi-prd-kcl-euwe2-44e9d61b-vms,bad port(s) found: ['tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535_x', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535', 'tcp:1-65535']
+mgmt-hst-prd-5100,gke-mgmt-spi-prd-kcl-euwe2-44e9d61b-vms,bad port(s) found: ['udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535_x', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535', 'udp:1-65535']
+mgmt-hst-prd-5100,ingress-all-prd-subnets,bad port(s) found: ['tcp:25', 'tcp:80']
+mgmt-hst-prd-5100,ingress-all-prd-subnets,bad port(s) found: ['udp:53']
+mgmt-hst-prd-5100,ingress-mgmt-prd-hst-cnw-firewall-lb-health-checks,public target: 130.211.0.0/22
+mgmt-hst-prd-5100,ingress-mgmt-prd-hst-cnw-firewall-lb-health-checks,public target: 35.191.0.0/16
+mgmt-hst-prd-5100,ingress-mgmt-prd-hst-cnw-firewall-lb-health-checks,tcp:all ports
+mgmt-hst-prd-5100,ingress-vpn-subnet,tcp/udp:all ports
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ingress-euwe2-openvpn-a24e,ip_range: 0.0.0.0
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ingress-euwe2-openvpn-a7c4,ip_range: 0.0.0.0
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ingress-euwe2-openvpn-b567,ip_range: 0.0.0.0
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ingress-euwe2-openvpn-ffec,ip_range: 0.0.0.0
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ovpn-allow-api-traffic-euwe2-openvpn-a24e,public target: 199.36.153.4/30
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ovpn-allow-api-traffic-euwe2-openvpn-a24e,public target: 199.36.153.8/30
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ovpn-allow-api-traffic-euwe2-openvpn-a24e,bad port(s) found: ['tcp:80']
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ovpn-allow-api-traffic-euwe2-openvpn-a7c4,public target: 199.36.153.4/30
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ovpn-allow-api-traffic-euwe2-openvpn-a7c4,public target: 199.36.153.8/30
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ovpn-allow-api-traffic-euwe2-openvpn-a7c4,bad port(s) found: ['tcp:80']
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ovpn-allow-api-traffic-euwe2-openvpn-b567,public target: 199.36.153.4/30
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ovpn-allow-api-traffic-euwe2-openvpn-b567,public target: 199.36.153.8/30
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ovpn-allow-api-traffic-euwe2-openvpn-b567,bad port(s) found: ['tcp:80']
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ovpn-allow-api-traffic-euwe2-openvpn-ffec,public target: 199.36.153.4/30
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ovpn-allow-api-traffic-euwe2-openvpn-ffec,public target: 199.36.153.8/30
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ovpn-allow-api-traffic-euwe2-openvpn-ffec,bad port(s) found: ['tcp:80']
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ovpn-allow-http-euwe2-openvpn-a24e,bad port(s) found: ['tcp:80']
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ovpn-allow-http-euwe2-openvpn-a7c4,bad port(s) found: ['tcp:80']
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ovpn-allow-http-euwe2-openvpn-b567,bad port(s) found: ['tcp:80']
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ovpn-allow-http-euwe2-openvpn-ffec,bad port(s) found: ['tcp:80']
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ovpn-allow-secldap-euwe2-openvpn-a24e,ip_range: 0.0.0.0
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ovpn-allow-secldap-euwe2-openvpn-a7c4,ip_range: 0.0.0.0
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ovpn-allow-secldap-euwe2-openvpn-b567,ip_range: 0.0.0.0
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ovpn-allow-secldap-euwe2-openvpn-ffec,ip_range: 0.0.0.0
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ovpn-allow-smtp-euwe2-openvpn-b567,bad port(s) found: ['tcp:25']
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ovpn-allow-smtp-euwe2-openvpn-ffec,bad port(s) found: ['tcp:25']
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ovpn-allow-user-traffic-euwe2-openvpn-a24e,ip_range: 0.0.0.0
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ovpn-allow-user-traffic-euwe2-openvpn-a7c4,ip_range: 0.0.0.0
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ovpn-allow-user-traffic-euwe2-openvpn-b567,ip_range: 0.0.0.0
+mgmt-hst-prd-5100,mgmt-prd-2e21-fwr-ovpn-allow-user-traffic-euwe2-openvpn-ffec,ip_range: 0.0.0.0
+mgmt-hst-prd-5100,mgmt-prd-cin-euwest2-vpn-01-egress-d95a,ip_range: 0.0.0.0
+mgmt-hst-prd-5100,mgmt-prd-cin-euwest2-vpn-01-egress-d95a,tcp/udp:all ports
+mgmt-hst-prd-5100,mgmt-prd-cin-euwest2-vpn-01-ingress-d95a,ip_range: 0.0.0.0
+mgmt-hst-prd-5100,openvpn-egress-b39d6518,ip_range: 0.0.0.0
+mgmt-hst-prd-5100,openvpn-egress-b39d6518,tcp/udp:all ports
+mgmt-hst-prd-5100,openvpn-ingress-b39d6518,ip_range: 0.0.0.0
+Project: mgmt-hst-tst-8215 | Unexpected error: <class 'KeyError'>compliance1-infraprov-9cc2,allow-all-egress,ip_range: 0.0.0.0
+compliance1-infraprov-9cc2,allow-all-egress,tcp/udp:all ports
+compliance1-infraprov-9cc2,allow-all-egress-default,ip_range: 0.0.0.0
+compliance1-infraprov-9cc2,allow-all-egress-default,tcp/udp:all ports
+compliance1-infraprov-9cc2,allow-all-internal,ip_range: 0.0.0.0
+compliance1-infraprov-9cc2,allow-all-internal,tcp/udp:all ports
+compliance1-infraprov-9cc2,dataproc-restricted-all-egress-internal-only,public target: 199.36.153.8/30
+compliance1-infraprov-9cc2,dataproc-restricted-all-egress-internal-only,public target: 199.36.153.4/30
+compliance1-infraprov-9cc2,dataproc-restricted-all-egress-internal-only,ip_range: 0.0.0.0
+compliance1-infraprov-9cc2,dataproc-restricted-all-egress-internal-only,tcp/udp:all ports
+compliance1-infraprov-9cc2,dataproc-restricted-allegress,tcp/udp:all ports
+Project: compliance1-infraprov-9cc2 | Unexpected error: <class 'KeyError'>
